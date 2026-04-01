@@ -1,7 +1,7 @@
 DEVKITPRO ?= /opt/devkitpro
 DEVKITARM ?= $(DEVKITPRO)/devkitARM
 
-include $(DEVKITPRO)/libgba/gba_rules
+include $(DEVKITARM)/base_rules
 
 TARGET := rootbear
 BUILD := build
